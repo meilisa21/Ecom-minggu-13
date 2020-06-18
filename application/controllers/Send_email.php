@@ -16,7 +16,7 @@ class Send_email extends CI_Controller {
             'protocol'  => 'smtp',
             'smtp_host' => 'smtp.gmail.com',
             'smtp_user' => 'meilisarahayu05@gmail.com',  // Email gmail
-            'smtp_pass'   => 'meilisa05',  // Password gmail
+            'smtp_pass'   => '',  // Password gmail
             'smtp_crypto' => 'ssl',
             'smtp_port'   => 465,
             'crlf'    => "\r\n",
